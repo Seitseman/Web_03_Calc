@@ -1,65 +1,70 @@
 * {
-    box-sizing: border-box;
-}  
+  box-sizing: border-box;
+}
 
 .calculator {
-    width: 400px;
-    margin: auto;
+  width: 400px;
+  margin: auto;
 }
 
 .result {
-    align-items: center;
-    color: aliceblue;
-    background-color: black;
-    margin-bottom: 0;
-    font-family: monospace;
-    height: 85px;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 48px;
-    display: flex;
-    text-align: end;
-    justify-content: flex-end;
+  align-items: center;
+  color: aliceblue;
+  background-color: black;
+  margin-bottom: 0;
+  font-family: monospace;
+  height: 85px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  display: flex;
+  text-align: end;
+  justify-content: flex-end;
 }
 
 .button-container {
-    display: flex;
-    border: 1px solid black;
-    flex-wrap: wrap;
-    background-color: black;
+  display: flex;
+  border: 1px solid black;
+  flex-wrap: wrap;
+  background-color: black;
 }
 
 .btn {
-    /* border-color: black; */
-    height: 100px;
-    width: 25%;
-    font-family: monospace;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 48px;
-    background-color: #D8D9DB;
-    border: 1px solid #333;
-    outline-width: 0;
+  /* border-color: black; */
+  height: 100px;
+  width: 25%;
+  font-family: monospace;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  background-color: #d8d9db;
+  border: 1px solid #333;
+  outline-width: 0;
+  cursor: pointer;
 }
 
 .btn:hover {
-    background-color: #ebebeb;
+  background-color: #ebebeb;
+}
+
+.btn:active {
+  background-color: #bbbcbb;
 }
 
 .clear {
-    flex: 50%;
+  flex: 50%;
 }
 
 .zero {
-    flex: 75%;
+  flex: 75%;
 }
 
 .btn.decorated {
-    background-color: #df974c;
-    color: white;
+  background-color: #df974c;
+  color: white;
 }
 
-.btn.btn.decorated:hover {
-    background-color: #dfb07e;
-    color: white;
+.btn.decorated:hover {
+  background-color: #dfb07e;
+  color: yellow;
 }
